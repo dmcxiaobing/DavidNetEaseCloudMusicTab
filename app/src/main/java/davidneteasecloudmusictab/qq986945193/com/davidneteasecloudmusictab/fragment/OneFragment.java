@@ -54,7 +54,7 @@ public class OneFragment extends Fragment {
         }
         initView(rootView);
 
-        myAdapter = new MyAdapter(getActivity().getSupportFragmentManager());
+        myAdapter = new MyAdapter(getChildFragmentManager());
 
         mviewPager.setAdapter(myAdapter);
 
